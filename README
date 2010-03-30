@@ -6,7 +6,7 @@ This is an accessory for iPod touches that will allow them to:
 
 	3.) Have true GPS capabilities like an iPhone.
 
-These items are all in order of ease of obtainability.
+These features are all in order of ease of obtainability.
 
 The phone call part should be easy--once the hardware is there, an app just needs to be written to dial numbers and then send the AT command to dial that number over the serial line to the cellular module. Ideally, the app could interface with the iPod contacts to allow the user to just select a contact's phone number to dial instead of having to type it out on the dial pad. Searchability of the contacts list would also be good. Essentially, this would be just like the iPhone "Phone" app, but with an external cellular module.
 
