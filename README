@@ -1,0 +1,15 @@
+This is an accessory for iPod touches that will allow them to:
+
+	1.) Make phone calls on any GSM network like an unlocked phone.
+
+	2.) Connect to the internet via a dial-up connection over the serial line and through the cellular module.
+
+	3.) Have true GPS capabilities like an iPhone.
+
+These items are all in order of ease of obtainability.
+
+The phone call part should be easy--once the hardware is there, an app just needs to be written to dial numbers and then send the AT command to dial that number over the serial line to the cellular module. Ideally, the app could interface with the iPod contacts to allow the user to just select a contact's phone number to dial instead of having to type it out on the dial pad. Searchability of the contacts list would also be good. Essentially, this would be just like the iPhone "Phone" app, but with an external cellular module.
+
+Getting the wireless dial-up to work will be a little more tricky, though. There needs to be some sort of pppd and chatscripts on the iPod touch to get the connection to work, so that definitely means it will only work on a jailbroken iPod touch. It will also need some integration into the iPod touch OS to get it to think that there's WiFi available.
+
+To get GPS capabilities working, an app would be needed to be written to run in the background and route the GPS data to temporarily replace the WiFi location data when it is attached. Also, there would need to be some sort of serial hub to allow simultaneous connection to both the GPS and the cellular modem.
