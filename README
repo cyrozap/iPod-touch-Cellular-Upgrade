@@ -12,4 +12,4 @@ The phone call part should be easy--once the hardware is there, an app just need
 
 Getting the wireless dial-up to work will be a little more tricky, though. There needs to be some sort of pppd and chatscripts on the iPod touch to get the connection to work, so that definitely means it will only work on a jailbroken iPod touch. It will also need some integration into the iPod touch OS to get it to think that there's WiFi available.
 
-To get GPS capabilities working, an app would be needed to be written to run in the background and route the GPS data to temporarily replace the WiFi location data when it is attached. Also, there would need to be some sort of serial hub to allow simultaneous connection to both the GPS and the cellular modem.
+To get GPS capabilities working, an app would be needed to be written to run in the background and route the GPS data to temporarily replace the WiFi location data when it is attached. Getting the data is the easy part, though (AT$GPSACP gets the actual GPS position).
